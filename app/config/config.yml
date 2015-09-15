@@ -83,3 +83,11 @@ fos_user:
     db_driver: orm # other valid values are 'mongodb', 'couchdb' and 'propel'
     firewall_name: main
     user_class: R4\UserBundle\Entity\User
+
+fos_rest:
+    disable_csrf_role:    null
+    access_denied_listener:
+        enabled:              false
+        service:              null
+    service:
+        serializer:           null
